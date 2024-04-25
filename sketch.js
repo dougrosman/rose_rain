@@ -6,6 +6,7 @@ let speed = 8;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   //frameRate(10)
+  // here's some  new stuff!
 }
 
 function draw() {
@@ -23,7 +24,7 @@ function draw() {
   }
 }
 
-
+ 
 function windowResized() {
   console.log("window resized!")
   resizeCanvas(windowWidth, windowHeight);
